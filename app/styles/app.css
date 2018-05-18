@@ -1,11 +1,18 @@
 .items-container {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 10px;
     justify-items: center;
 }
 
 .menu-item {
     display: grid;
+    justify-items: center;
+}
+
+.order-tracker {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
     justify-items: center;
 }
